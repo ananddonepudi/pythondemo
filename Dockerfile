@@ -47,3 +47,4 @@ RUN mv tfsec /usr/bin/
 RUN curl -L -o opa https://openpolicyagent.org/downloads/v0.52.0/opa_linux_amd64_static
 RUN chmod 755 ./opa
 RUN mv opa /usr/bin/
+# End of file
