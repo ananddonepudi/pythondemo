@@ -10,3 +10,4 @@ print("🔄 Converting to Parquet...")
 df.to_parquet(output_file, engine="pyarrow", index=False)
 
 print(f"✅ Parquet file written to {output_file}")
+print("newline")
